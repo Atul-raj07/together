@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'ModernEra';
+    src: url('https://together.agency/assets/fonts/modernEra/ModernEra-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'midnight';
+    src: url('https://together.agency/assets/fonts/midnightSans/MidnightSansRDPro-36Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ModernEra', sans-serif;
+}
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.midnight{
+    font-family: 'midnight';
+}
